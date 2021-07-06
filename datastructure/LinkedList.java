@@ -1,9 +1,4 @@
 package datastructure;
-
-
-
-
-
 public class LinkedList {
 
 	Node head,last;
