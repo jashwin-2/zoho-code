@@ -1,11 +1,10 @@
 package stack;
 
-/* Java program to implement basic stack
-operations */
+
 class Stack {
 	static final int MAX = 1000;
 	int top;
-	int a[] = new int[MAX]; // Maximum size of Stack
+	int a[] = new int[MAX]; 
 
 	boolean isEmpty()
 	{
