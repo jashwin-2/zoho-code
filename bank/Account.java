@@ -120,7 +120,7 @@ public abstract class Account
 	abstract public void withdraw(float ammount);
 	abstract public boolean transferMoney(float ammount,String name);
 
-	protected abstract void calculateInterest(int parseInt);
+	abstract public void calculateInterest(int parseInt);
 
 	public boolean getStatus() {
 		return status;
