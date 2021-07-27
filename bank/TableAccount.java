@@ -8,12 +8,12 @@ public class TableAccount
 {
 	private List<String> accHolderName=new ArrayList<>();
 	private List<Integer> accNo=new ArrayList<>();
-	protected List<Integer> transactions=new ArrayList<>();
+	private List<Integer> transactions=new ArrayList<>();
 	private List<Long> mobileNo=new ArrayList<>();
-	protected List<Float> accBalance=new ArrayList<>();
-	protected List<List<String>> passbook=new ArrayList<>();
+	private List<Float> accBalance=new ArrayList<>();
+	private List<List<String>> passbook=new ArrayList<>();
 	private List<Integer> pin=new ArrayList<>();
-	protected List<String> type=new ArrayList<>();
+	private List<String> type=new ArrayList<>();
 	private List<Boolean> status=new ArrayList<>();
 
 
